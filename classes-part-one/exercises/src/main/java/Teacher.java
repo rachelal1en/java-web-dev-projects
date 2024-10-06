@@ -14,28 +14,28 @@ public class Teacher {
     public String getFirstName() {
         return firstName;
     }
-    private void setFirstName(String firstName){
+    public void setFirstName(String firstName){
         this.firstName = firstName;
     }
 
     public String getLastName(){
         return lastName;
     }
-    private void setLastName(String lastName){
+    public void setLastName(String lastName){
         this.lastName = lastName;
     }
 
     public String getSubject(String subject){
         return subject;
     }
-    private void setSubject(){
+    public void setSubject(){
         this.subject = subject;
     }
 
     public int getYearsTeaching(){
         return yearsTeaching;
     }
-    private void setYearsTeaching(int yearsTeaching){
+    public void setYearsTeaching(int yearsTeaching){
         this.yearsTeaching = yearsTeaching;
     }
 
