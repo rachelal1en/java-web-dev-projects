@@ -57,10 +57,6 @@ public class Student {
         return numberOfCredits;
     }
 
-    public double getGpa() {
-        return gpa;
-    }
-
     public void setName(String name) {
         this.name = name;
     }
